@@ -11,7 +11,7 @@ import './index.css'
 
 export default function App() {
   return (
-    <BrowserRouter basename="/napsosa/">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <TopBar />
         <Navbar />
