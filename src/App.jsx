@@ -7,12 +7,14 @@ import School from './pages/School'
 import AboutPage from './pages/AboutPage'
 import EventsPage from './pages/EventsPage'
 import GovernancePage from './pages/GovernancePage'
+import ScrollToTop from './components/ScrollToTop'
 import './index.css'
 
 export default function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+        <ScrollToTop />
         <TopBar />
         <Navbar />
         <div style={{ flex: 1 }}>
