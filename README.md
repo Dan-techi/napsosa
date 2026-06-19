@@ -1,2 +1,2 @@
 # Napssosa
-Nabingoola Public Secondary School Old Students Association
+Nabingoola Public School Old Students Association
