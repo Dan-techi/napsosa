@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage'
 import EventsPage from './pages/EventsPage'
 import GovernancePage from './pages/GovernancePage'
 import ProjectsPage from './pages/ProjectsPage'
+import ContactPage from './pages/ContactPage'
 import ScrollToTop from './components/ScrollToTop'
 import './index.css'
 
@@ -26,6 +27,7 @@ export default function App() {
             <Route path="/events" element={<EventsPage />} />
             <Route path="/governance" element={<GovernancePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </div>
         <Footer />
