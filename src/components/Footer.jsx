@@ -50,7 +50,7 @@ export default function Footer() {
           <h4>Contact Us</h4>
           <ul className={styles.contactList}>
             <li><i className="fa fa-envelope" /><a href="mailto:info@napssosa.org">info@napssosa.org</a></li>
-            <li><i className="fa fa-phone" /><a href="tel:+256700123456">+256 700 123 456</a></li>
+            <li><i className="fa fa-phone" /><a href="tel:+256778986345">+256 778 986345</a></li>
             <li><i className="fa fa-location-dot" /><span>Nabingoola Town Council, Mubende District, Uganda</span></li>
           </ul>
 
