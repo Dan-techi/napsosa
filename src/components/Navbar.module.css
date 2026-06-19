@@ -1,0 +1,87 @@
+.nav {
+  background: var(--white);
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 12px rgba(0,0,0,.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 72px;
+}
+
+.logo { display: flex; align-items: center; gap: 12px; }
+
+.badge {
+  width: 52px; height: 52px;
+  background: var(--navy);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; color: var(--gold);
+  font-weight: 800; flex-shrink: 0;
+}
+
+.logoText strong { display: block; font-size: 1.05rem; color: var(--navy); letter-spacing: 1px; }
+.logoText span { font-size: 0.6rem; color: #777; text-transform: uppercase; line-height: 1.4; }
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  list-style: none;
+}
+
+.links a {
+  padding: 8px 11px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--navy);
+  transition: color .2s;
+  display: flex; align-items: center; gap: 3px;
+}
+.links a:hover { color: var(--gold); }
+.active { color: var(--gold) !important; border-bottom: 2px solid var(--gold); }
+.arrow { font-size: 0.65rem; }
+
+.btnJoin {
+  background: var(--gold);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  transition: background .2s;
+}
+
+@media (max-width: 960px) {
+  .links a, .btnJoin { white-space: normal; letter-spacing: 0; }
+}
+.btnJoin:hover { background: var(--gold-light); }
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  color: var(--navy);
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .hamburger { display: block; }
+  .btnJoin { display: none; }
+  .links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 72px; left: 0; right: 0;
+    background: var(--white);
+    padding: 16px 5%;
+    box-shadow: 0 8px 20px rgba(0,0,0,.1);
+    gap: 0;
+  }
+  .links.open { display: flex; }
+  .links a { padding: 10px 0; width: 100%; border-bottom: 1px solid #eee; }
+}

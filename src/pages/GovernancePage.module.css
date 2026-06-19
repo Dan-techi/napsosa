@@ -1,0 +1,132 @@
+.page { background: var(--gray-bg); }
+
+.hero {
+  background: var(--navy);
+  color: var(--white);
+  text-align: left;
+  padding: 80px 5% 60px;
+}
+.hero h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 10px; }
+.hero p { font-size: 1rem; color: var(--gold); letter-spacing: 1px; text-transform: uppercase; }
+
+.container { max-width: 900px; margin: 0; padding: 60px 5%; }
+
+.section { margin-bottom: 56px; }
+
+.section h2 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--navy);
+  border-bottom: 3px solid var(--gold);
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-bottom: 24px;
+}
+
+.intro { font-size: 0.92rem; color: var(--muted); line-height: 1.8; margin-bottom: 20px; }
+
+/* Organs Grid */
+.organsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.organ {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 28px 22px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.06);
+}
+.organ i { font-size: 1.6rem; color: var(--gold); margin-bottom: 12px; display: block; }
+.organ h3 { font-size: 0.9rem; font-weight: 700; color: var(--navy); text-transform: uppercase; margin-bottom: 8px; }
+.organ p { font-size: 0.85rem; color: var(--muted); line-height: 1.7; }
+
+/* Rules List */
+.rulesList { display: flex; flex-direction: column; gap: 12px; }
+.ruleItem {
+  background: var(--white);
+  border-left: 4px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.05);
+}
+.ruleItem strong { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 1px; color: var(--navy); }
+.ruleItem span { font-size: 0.88rem; color: var(--muted); line-height: 1.7; }
+
+/* Powers list */
+.powers {
+  background: var(--navy);
+  border-radius: 10px;
+  padding: 24px 28px;
+  margin-top: 20px;
+  color: var(--white);
+}
+.powers h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--gold); margin-bottom: 14px; }
+.powers ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.powers ul li {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #c5cfe8;
+  padding-left: 16px;
+  position: relative;
+}
+.powers ul li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+}
+
+/* Executive Grid */
+.execGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.execCard {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 16px 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.execNum {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--gold);
+  min-width: 36px;
+  line-height: 1;
+}
+.execRole { font-size: 0.85rem; font-weight: 600; color: var(--navy); line-height: 1.4; }
+
+/* Duties Grid */
+.dutiesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+.dutyCard {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.06);
+}
+.dutyCard h3 { font-size: 0.82rem; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 8px; }
+.dutyCard p { font-size: 0.85rem; color: var(--muted); line-height: 1.7; margin: 0; }
+
+@media (max-width: 768px) {
+  .hero { padding: 56px 5% 40px; }
+  .container { padding: 40px 5%; }
+  .organsGrid { grid-template-columns: 1fr; }
+  .execGrid { grid-template-columns: repeat(2, 1fr); }
+  .dutiesGrid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .hero h1 { font-size: 1.5rem; }
+  .execGrid { grid-template-columns: 1fr; }
+}

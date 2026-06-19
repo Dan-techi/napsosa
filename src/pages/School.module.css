@@ -1,0 +1,114 @@
+.hero {
+  position: relative;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  background: url('/school.jpg') center / cover no-repeat;
+  background-color: var(--navy);
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(13, 31, 78, 0.78);
+}
+.heroContent {
+  position: relative;
+  z-index: 2;
+  padding: 0 5%;
+  color: var(--white);
+}
+.heroContent h1 {
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.heroContent p {
+  color: var(--gold);
+  font-size: 0.9rem;
+  margin-top: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Essay */
+.article {
+  background: var(--gray-bg);
+  padding: 60px 5%;
+}
+.inner {
+  max-width: 820px;
+  margin: 0;
+}
+
+.label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.inner h2 {
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 28px;
+  line-height: 1.3;
+  border-left: 4px solid var(--gold);
+  padding-left: 16px;
+}
+
+.inner p {
+  font-size: 1rem;
+  line-height: 1.9;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.inner p strong { color: var(--navy); }
+.inner p em { color: var(--gold); font-style: italic; }
+
+/* Quick Facts */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 48px;
+  border-top: 2px solid #e0e4ef;
+  padding-top: 36px;
+}
+.fact {
+  text-align: left;
+  background: var(--navy);
+  border-radius: 8px;
+  padding: 24px 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.12);
+}
+.factVal {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--gold);
+}
+.factKey {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  color: #8fa3c8;
+  margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .article { padding: 40px 5%; }
+  .facts { grid-template-columns: repeat(2, 1fr); }
+  .inner p { font-size: 0.92rem; text-align: left; }
+}
+@media (max-width: 480px) {
+  .hero { height: 220px; }
+  .facts { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .factVal { font-size: 1.3rem; }
+}
