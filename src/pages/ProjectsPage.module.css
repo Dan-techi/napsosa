@@ -1,0 +1,41 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 60vh;
+}
+
+.hero {
+  background: var(--navy);
+  color: var(--white);
+  padding: 80px 5% 60px;
+}
+.hero h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 10px; }
+.hero p { font-size: 1rem; color: var(--gold); letter-spacing: 1px; text-transform: uppercase; }
+
+.empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 5%;
+  text-align: center;
+  gap: 16px;
+}
+
+.empty i {
+  font-size: 3.5rem;
+  color: var(--gold);
+  opacity: 0.6;
+}
+
+.empty h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--navy);
+}
+
+.empty p {
+  font-size: 0.95rem;
+  color: var(--muted);
+}

@@ -7,6 +7,7 @@ import School from './pages/School'
 import AboutPage from './pages/AboutPage'
 import EventsPage from './pages/EventsPage'
 import GovernancePage from './pages/GovernancePage'
+import ProjectsPage from './pages/ProjectsPage'
 import ScrollToTop from './components/ScrollToTop'
 import './index.css'
 
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/events" element={<EventsPage />} />
             <Route path="/governance" element={<GovernancePage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
           </Routes>
         </div>
         <Footer />
