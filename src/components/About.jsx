@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import styles from './About.module.css'
 
 const pillars = [
@@ -18,7 +19,7 @@ export default function About() {
           development, mentor students, and promote the values that define our
           alma mater.
         </p>
-        <a href="/about" className={styles.btn}>READ MORE ABOUT US</a>
+        <Link to="/about" className={styles.btn}>READ MORE ABOUT US</Link>
       </div>
 
       <div className={styles.pillars}>
