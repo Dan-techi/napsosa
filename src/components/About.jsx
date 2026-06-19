@@ -14,7 +14,7 @@ export default function About() {
         <h3>ABOUT NAPSSOSA</h3>
         <p>
           NAPSSOSA brings together Old Girls and Old Boys of Nabingoola Public
-          Secondary School to foster lifelong fellowship, support school
+          School to foster lifelong fellowship, support school
           development, mentor students, and promote the values that define our
           alma mater.
         </p>

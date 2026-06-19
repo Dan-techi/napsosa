@@ -16,7 +16,7 @@ export default function Hero() {
           <span>Inspiring Success</span>
         </h2>
         <p>
-          Welcome to the official home of Nabingoola Public Secondary School Old Students
+          Welcome to the official home of Nabingoola Public School Old Students
           Association (NAPSSOSA). Together, we support our alma mater and build
           a brighter future for generations to come.
         </p>

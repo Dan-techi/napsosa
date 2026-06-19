@@ -5,7 +5,7 @@ export default function AboutPage() {
     <main className={styles.page}>
       <div className={styles.hero}>
         <h1>About NAPSSOSA</h1>
-        <p>Nabingoola Public Secondary School Old Students Association</p>
+        <p>Nabingoola Public School Old Students Association</p>
       </div>
 
       <div className={styles.container}>
@@ -14,8 +14,7 @@ export default function AboutPage() {
         <section className={styles.section}>
           <h2>Preamble</h2>
           <p>
-            We, the former students of Nabingoola Public Secondary School Old Students
-            Association, recognising the value of unity, service, and giving back to our
+            We, the former students of Nabingoola Public School Old Students Association, recognising the value of unity, service, and giving back to our
             alma mater, and desiring to promote the welfare of members and the development
             of the school, do hereby adopt and enact this constitution to govern the affairs
             of our Association.
@@ -28,11 +27,11 @@ export default function AboutPage() {
           <div className={styles.infoGrid}>
             <div className={styles.infoItem}>
               <span className={styles.infoLabel}>Name</span>
-              <span>Nabingoola Public Secondary School Old Students Association (NAPSSOSA)</span>
+              <span>Nabingoola Public School Old Students Association (NAPSSOSA)</span>
             </div>
             <div className={styles.infoItem}>
               <span className={styles.infoLabel}>Registered Office</span>
-              <span>Nabingoola Public Secondary School, Mubende District, Uganda</span>
+              <span>Nabingoola Public School, Mubende District, Uganda</span>
             </div>
             <div className={styles.infoItem}>
               <span className={styles.infoLabel}>Motto</span>
@@ -53,14 +52,14 @@ export default function AboutPage() {
               <span className={styles.number}>2.1</span>
               <div>
                 <h3>Unity &amp; Lifelong Fellowship</h3>
-                <p>To unite all former students of Nabingoola Public Secondary School and foster lifelong fellowship.</p>
+                <p>To unite all former students of Nabingoola Public School and foster lifelong fellowship.</p>
               </div>
             </div>
             <div className={styles.objective}>
               <span className={styles.number}>2.2</span>
               <div>
                 <h3>Resource Mobilisation &amp; School Development</h3>
-                <p>To mobilise resources and support projects that improve infrastructure, academics, and welfare at Nabingoola Public Secondary School.</p>
+                <p>To mobilise resources and support projects that improve infrastructure, academics, and welfare at Nabingoola Public School.</p>
               </div>
             </div>
             <div className={styles.objective}>
@@ -74,7 +73,7 @@ export default function AboutPage() {
               <span className={styles.number}>2.4</span>
               <div>
                 <h3>Upholding the School's Reputation &amp; Values</h3>
-                <p>To uphold, protect, and promote the reputation and values of Nabingoola Public Secondary School.</p>
+                <p>To uphold, protect, and promote the reputation and values of Nabingoola Public School.</p>
               </div>
             </div>
             <div className={styles.objective}>
@@ -98,7 +97,7 @@ export default function AboutPage() {
         <section className={styles.section}>
           <h2>Article 3: Membership</h2>
           <p>
-            Membership is open to any person who attended Nabingoola Public Secondary School
+            Membership is open to any person who attended Nabingoola Public School
             for at least one full term.
           </p>
 

@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className={styles.badge}>N</div>
         <div className={styles.logoText}>
           <strong>NAPSSOSA</strong>
-          <span>Nabingoola Public Secondary School<br />Old Students Association</span>
+          <span>Nabingoola Public School<br />Old Students Association</span>
         </div>
       </Link>
 
