@@ -21,7 +21,7 @@ export default function Navbar() {
       <Link to="/" className={styles.logo}>
         <div className={styles.badge}>N</div>
         <div className={styles.logoText}>
-          <strong>NAPSSOSA</strong>
+          <strong>NAPOSA</strong>
           <span>Nabingoola Public School<br />Old Students Association</span>
         </div>
       </Link>
@@ -40,7 +40,7 @@ export default function Navbar() {
         ))}
       </ul>
 
-      <Link to="/join" className={styles.btnJoin}>JOIN NAPSSOSA</Link>
+      <Link to="/join" className={styles.btnJoin}>JOIN NAPOSA</Link>
 
       <button className={styles.hamburger} onClick={() => setOpen(o => !o)} aria-label="Menu">
         <i className={`fa ${open ? 'fa-times' : 'fa-bars'}`} />

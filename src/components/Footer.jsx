@@ -26,7 +26,7 @@ export default function Footer() {
           <div className={styles.logo}>
             <div className={styles.badge}>N</div>
             <div>
-              <strong>NAPSSOSA</strong>
+              <strong>NAPOSA</strong>
               <span>Nabingoola Public School<br />Old Students Association</span>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.bottom}>
-        &copy; {new Date().getFullYear()} <span>NAPSSOSA</span> – Nabingoola Public School Old Students Association. All rights reserved.
+        &copy; {new Date().getFullYear()} <span>NAPOSA</span> – Nabingoola Public School Old Students Association. All rights reserved.
       </div>
     </footer>
   )

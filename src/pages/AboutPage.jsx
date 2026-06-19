@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <main className={styles.page}>
       <div className={styles.hero}>
-        <h1>About NAPSSOSA</h1>
+        <h1>About NAPOSA</h1>
         <p>Nabingoola Public School Old Students Association</p>
       </div>
 
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div className={styles.infoGrid}>
             <div className={styles.infoItem}>
               <span className={styles.infoLabel}>Name</span>
-              <span>Nabingoola Public School Old Students Association (NAPSSOSA)</span>
+              <span>NAPOSA (Nabingoola Public School Old Students Association)</span>
             </div>
             <div className={styles.infoItem}>
               <span className={styles.infoLabel}>Registered Office</span>
@@ -127,7 +127,7 @@ export default function AboutPage() {
             </div>
             <div className={styles.rule}>
               <strong>Duties</strong>
-              <span>Pay subscriptions, obey the constitution, attend meetings, and promote NAPSSOSA objectives.</span>
+              <span>Pay subscriptions, obey the constitution, attend meetings, and promote NAPOSA objectives.</span>
             </div>
             <div className={styles.rule}>
               <strong>Cessation</strong>
@@ -135,7 +135,7 @@ export default function AboutPage() {
             </div>
             <div className={styles.rule}>
               <strong>Discipline</strong>
-              <span>A member acting against NAPSSOSA interests may be suspended or expelled by a ⅔ vote of the Executive Committee. Right of appeal to AGM within 30 days.</span>
+              <span>A member acting against NAPOSA interests may be suspended or expelled by a ⅔ vote of the Executive Committee. Right of appeal to AGM within 30 days.</span>
             </div>
           </div>
         </section>
@@ -144,7 +144,7 @@ export default function AboutPage() {
         <section className={styles.section}>
           <h2>Our Commitment</h2>
           <p>
-            NAPSSOSA is more than an alumni body — it is a movement. A movement driven by
+            NAPOSA is more than an alumni body — it is a movement. A movement driven by
             gratitude for what Nabingoola gave us, and by a determination to ensure that
             every student who passes through its gates has access to the same opportunities,
             if not better ones, than we had. Together, we are stronger. Together, we move

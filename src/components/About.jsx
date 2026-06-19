@@ -11,9 +11,9 @@ export default function About() {
   return (
     <section className={styles.about}>
       <div className={styles.left}>
-        <h3>ABOUT NAPSSOSA</h3>
+        <h3>ABOUT NAPOSA</h3>
         <p>
-          NAPSSOSA brings together Old Girls and Old Boys of Nabingoola Public
+          NAPOSA brings together Old Girls and Old Boys of Nabingoola Public
           School to foster lifelong fellowship, support school
           development, mentor students, and promote the values that define our
           alma mater.

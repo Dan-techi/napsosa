@@ -23,10 +23,10 @@ export default function EventsPage() {
 
           <div className={styles.details}>
             <span className={styles.tag}>Official Launch</span>
-            <h2>NAPSSOSA Official Launch Ceremony</h2>
+            <h2>NAPOSA Official Launch Ceremony</h2>
             <p>
               We are proud to announce the official launch of the Nabingoola Public
-              Secondary School Old Students Association — <strong>NAPSSOSA</strong>.
+              School Old Students Association — <strong>NAPOSA</strong>.
               This landmark event marks the formal establishment of our alumni body
               and brings together former students, current staff, school administration,
               and invited guests to celebrate a new chapter in the life of our alma mater.
@@ -41,7 +41,7 @@ export default function EventsPage() {
             </p>
             <p>
               Expect speeches from founding members and school leadership, the
-              unveiling of the NAPSSOSA constitution and executive committee,
+              unveiling of the NAPOSA constitution and executive committee,
               and an opportunity to reconnect with fellow alumni from across the
               years. This is a moment in history for every old student of
               Nabingoola — do not miss it.

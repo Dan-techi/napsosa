@@ -13,7 +13,7 @@ const executives = [
 ]
 
 const duties = [
-  { role: 'President', desc: 'Presides over meetings, provides leadership, is chief signatory to bank account, and represents NAPSSOSA externally.' },
+  { role: 'President', desc: 'Presides over meetings, provides leadership, is chief signatory to bank account, and represents NAPOSA externally.' },
   { role: 'Vice President', desc: 'Deputises the President in their absence.' },
   { role: 'General Secretary', desc: 'Keeps the membership register, records minutes, handles correspondence, and issues notices.' },
   { role: 'Treasurer', desc: 'Keeps proper books of accounts, prepares budget, presents financial reports, and is joint signatory to the bank account.' },
@@ -27,14 +27,14 @@ export default function GovernancePage() {
     <main className={styles.page}>
       <div className={styles.hero}>
         <h1>Governance &amp; Constitution</h1>
-        <p>NAPSSOSA — Articles 4 to 13</p>
+        <p>NAPOSA — Articles 4 to 13</p>
       </div>
 
       <div className={styles.container}>
 
         {/* ARTICLE 4 */}
         <section className={styles.section}>
-          <h2>Article 4: Organs of NAPSSOSA</h2>
+          <h2>Article 4: Organs of NAPOSA</h2>
           <div className={styles.organsGrid}>
             <div className={styles.organ}>
               <i className="fa fa-landmark" />
@@ -147,7 +147,7 @@ export default function GovernancePage() {
             </div>
             <div className={styles.ruleItem}>
               <strong>Role</strong>
-              <span>Hold all land, buildings, and major assets in trust for NAPSSOSA.</span>
+              <span>Hold all land, buildings, and major assets in trust for NAPOSA.</span>
             </div>
             <div className={styles.ruleItem}>
               <strong>Authority</strong>
@@ -166,7 +166,7 @@ export default function GovernancePage() {
             </div>
             <div className={styles.ruleItem}>
               <strong>Bank Account</strong>
-              <span>Opened in the name of NAPSSOSA. Operated by 3 signatories: President, Treasurer, and General Secretary — any 2 to sign.</span>
+              <span>Opened in the name of NAPOSA. Operated by 3 signatories: President, Treasurer, and General Secretary — any 2 to sign.</span>
             </div>
             <div className={styles.ruleItem}>
               <strong>Financial Year</strong>
