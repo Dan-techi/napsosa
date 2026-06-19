@@ -140,6 +140,33 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* EXECUTIVE COMMITTEE */}
+        <section className={styles.section}>
+          <h2>Executive Committee</h2>
+          <div className={styles.teamGrid}>
+            {[
+              { role: 'President', name: 'Ayebazibwe Emmanuel' },
+              { role: 'Vice President', name: 'Natugonza Cresent' },
+              { role: 'General Secretary', name: 'Asaba Nicholas Peter' },
+              { role: 'Vice Secretary', name: 'Nalugwa Bridget' },
+              { role: 'Publicity Secretary', name: 'Ssekabito David' },
+              { role: 'Vice Publicity Secretary', name: 'Mary Gorret' },
+              { role: 'Finance Secretary', name: 'Elly' },
+              { role: 'Minister of Constitutional Affairs', name: 'Habib Tumwesige' },
+              { role: 'Chief Advisor', name: 'Nsereko Emmy' },
+              { role: 'Patron', name: 'Idah Nattabi' },
+            ].map(m => (
+              <div key={m.role} className={styles.teamCard}>
+                <div className={styles.teamAvatar}>{m.name.charAt(0)}</div>
+                <div className={styles.teamInfo}>
+                  <span className={styles.teamRole}>{m.role}</span>
+                  <strong>{m.name}</strong>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* COMMITMENT */}
         <section className={styles.section}>
           <h2>Our Commitment</h2>
