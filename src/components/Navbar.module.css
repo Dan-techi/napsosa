@@ -22,8 +22,8 @@
   font-weight: 800; flex-shrink: 0;
 }
 
-.logoText strong { display: block; font-size: 1.05rem; color: var(--navy); letter-spacing: 1px; }
-.logoText span { font-size: 0.6rem; color: #777; text-transform: uppercase; line-height: 1.4; }
+.logoText strong { display: block; font-size: 1.3rem; color: var(--navy); letter-spacing: 2px; }
+.logoText span { font-size: 0.72rem; color: #555; text-transform: uppercase; line-height: 1.5; font-weight: 600; letter-spacing: 0.5px; }
 
 .links {
   display: flex;
