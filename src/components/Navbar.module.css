@@ -23,7 +23,7 @@
 }
 
 .logoText strong { display: block; font-size: 1.3rem; color: var(--navy); letter-spacing: 2px; }
-.logoText span { font-size: 0.72rem; color: #555; text-transform: uppercase; line-height: 1.5; font-weight: 600; letter-spacing: 0.5px; }
+.logoText span { display: block; font-size: 0.62rem; color: #555; text-transform: uppercase; line-height: 1.5; font-weight: 600; letter-spacing: 0.8px; }
 
 .links {
   display: flex;
