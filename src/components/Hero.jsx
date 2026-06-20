@@ -16,8 +16,8 @@ export default function Hero() {
           <span>Inspiring Success</span>
         </h2>
         <p>
-          Welcome to the official home of Nabingoola Public School Old Students
-          Association (NAPOSA). Together, we support our alma mater and build
+          Welcome to the official home of Nabingoola Public
+          Old Students Association (NAPOSA). Together, we support our alma mater and build
           a brighter future for generations to come.
         </p>
         <div className={styles.btns}>

@@ -58,7 +58,7 @@ export default function School() {
 
           <p>
             It is from this proud institution that the members of the Nabingoola
-            Public School Old Students Association (NAPOSA) trace their roots.
+            Public Old Students Association (NAPOSA) trace their roots.
             The bonds forged within these walls have endured for decades, and it
             is the mission of NAPOSA to give back to the school that shaped
             them — ensuring that every generation of students that passes through

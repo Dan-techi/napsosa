@@ -5,7 +5,7 @@ export default function AboutPage() {
     <main className={styles.page}>
       <div className={styles.hero}>
         <h1>About NAPOSA</h1>
-        <p>Nabingoola Public School Old Students Association</p>
+        <p>Nabingoola Public Old Students Association</p>
       </div>
 
       <div className={styles.container}>
@@ -14,7 +14,7 @@ export default function AboutPage() {
         <section className={styles.section}>
           <h2>Preamble</h2>
           <p>
-            We, the former students of Nabingoola Public School Old Students Association, recognising the value of unity, service, and giving back to our
+            We, the former students of Nabingoola Public Old Students Association, recognising the value of unity, service, and giving back to our
             alma mater, and desiring to promote the welfare of members and the development
             of the school, do hereby adopt and enact this constitution to govern the affairs
             of our Association.
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div className={styles.infoGrid}>
             <div className={styles.infoItem}>
               <span className={styles.infoLabel}>Name</span>
-              <span>NAPOSA (Nabingoola Public School Old Students Association)</span>
+              <span>NAPOSA (Nabingoola Public Old Students Association)</span>
             </div>
             <div className={styles.infoItem}>
               <span className={styles.infoLabel}>Registered Office</span>

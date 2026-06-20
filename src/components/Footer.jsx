@@ -27,11 +27,11 @@ export default function Footer() {
             <div className={styles.badge}>N</div>
             <div>
               <strong>NAPOSA</strong>
-              <span>Nabingoola Public School<br />Old Students Association</span>
+              <span>Nabingoola Public<br />Old Students Association</span>
             </div>
           </div>
           <p>
-            Uniting former students of Nabingoola Public School
+            Uniting former students of Nabingoola Public
             to foster fellowship, support school development, and mentor
             the next generation.
           </p>
@@ -67,7 +67,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.bottom}>
-        &copy; {new Date().getFullYear()} <span>NAPOSA</span> – Nabingoola Public School Old Students Association. All rights reserved.
+        &copy; {new Date().getFullYear()} <span>NAPOSA</span> – Nabingoola Public Old Students Association. All rights reserved.
       </div>
     </footer>
   )

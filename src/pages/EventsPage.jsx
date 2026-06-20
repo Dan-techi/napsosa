@@ -26,7 +26,7 @@ export default function EventsPage() {
             <h2>NAPOSA Official Launch Ceremony</h2>
             <p>
               We are proud to announce the official launch of the Nabingoola Public
-              School Old Students Association — <strong>NAPOSA</strong>.
+              Old Students Association — <strong>NAPOSA</strong>.
               This landmark event marks the formal establishment of our alumni body
               and brings together former students, current staff, school administration,
               and invited guests to celebrate a new chapter in the life of our alma mater.

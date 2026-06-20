@@ -1,2 +1,2 @@
 # Naposa
-Nabingoola Public School Old Students Association
+Nabingoola Public Old Students Association
