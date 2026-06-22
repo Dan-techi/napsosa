@@ -83,26 +83,3 @@ export default function EventsPage() {
     </main>
   )
 }
-              <div className={styles.metaItem}>
-                <i className="fa-solid fa-calendar-days" />
-                <span>Friday, 3rd July 2026</span>
-              </div>
-              <div className={styles.metaItem}>
-                <i className="fa-solid fa-location-dot" />
-                <span>Nabingoola Public Secondary School, Mubende District</span>
-              </div>
-              <div className={styles.metaItem}>
-                <i className="fa-solid fa-clock" />
-                <span>10:00 AM onwards</span>
-              </div>
-            </div>
-
-            <Link to="/contact" className={styles.btn}>REGISTER YOUR ATTENDANCE</Link>
-          </div>
-        </div>
-      </section>
-
-
-    </main>
-  )
-}
