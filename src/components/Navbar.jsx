@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import NaposaLogo from './NaposaLogo'
 import styles from './Navbar.module.css'
 
 const links = [
@@ -19,7 +20,7 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <Link to="/" className={styles.logo}>
-        <div className={styles.badge}>N</div>
+        <NaposaLogo size={48} />
         <div className={styles.logoText}>
           <strong>NAPOSA</strong>
           <span>NABINGOOLA PUBLIC OLD STUDENTS ASSOCIATION</span>
