@@ -81,6 +81,7 @@
     padding: 16px 5%;
     box-shadow: 0 8px 20px rgba(0,0,0,.1);
     gap: 0;
+    z-index: 99;
   }
   .links.open { display: flex; }
   .links a { padding: 10px 0; width: 100%; border-bottom: 1px solid #eee; }
