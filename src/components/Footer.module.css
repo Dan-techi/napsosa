@@ -24,7 +24,7 @@
   align-items: center;
   gap: 12px;
 }
-.logoImg { width: 48px; height: 48px; object-fit: contain; border-radius: 50%; }
+.logoImg { width: 48px; height: 48px; object-fit: contain; border-radius: 50%; background: white; }
 .badge {
   width: 42px;
   height: 42px;
