@@ -24,7 +24,7 @@ export default function Footer() {
 
         <div className={styles.brand}>
           <div className={styles.logo}>
-            <img src="https://kgfurnitures.odoo.com/web/image/1011-815e9712/logo.webp" alt="NAPOSA Logo" className={styles.logoImg} />
+            <img src="https://kgfurnitures.odoo.com/web/image/1013-2e0c55d1/naposa%20logo.webp" alt="NAPOSA Logo" className={styles.logoImg} />
             <div>
               <strong>NAPOSA</strong>
               <span>Nabingoola Public<br />Old Students Association</span>

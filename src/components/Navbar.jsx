@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <Link to="/" className={styles.logo}>
-        <img src="https://kgfurnitures.odoo.com/web/image/1011-815e9712/logo.webp" alt="NAPOSA Logo" className={styles.logoImg} />
+        <img src="https://kgfurnitures.odoo.com/web/image/1013-2e0c55d1/naposa%20logo.webp" alt="NAPOSA Logo" className={styles.logoImg} />
         <div className={styles.logoText}>
           <strong>NAPOSA</strong>
           <span>NABINGOOLA PUBLIC OLD STUDENTS ASSOCIATION</span>
