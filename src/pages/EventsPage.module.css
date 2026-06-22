@@ -85,6 +85,9 @@
 
 .details {
   padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .tag {
