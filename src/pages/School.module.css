@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 300px;
+  height: 160px;
   display: flex;
   align-items: center;
   background: url('/school.jpg') center / cover no-repeat;
@@ -108,7 +108,7 @@
   .inner p { font-size: 0.92rem; text-align: left; }
 }
 @media (max-width: 480px) {
-  .hero { height: 220px; }
+  .hero { height: 120px; }
   .facts { grid-template-columns: 1fr 1fr; gap: 10px; }
   .factVal { font-size: 1.3rem; }
 }

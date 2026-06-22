@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  height: 280px;
+  height: 160px;
   display: flex;
   align-items: center;
   background: var(--navy);
@@ -185,7 +185,7 @@
 }
 
 @media (max-width: 768px) {
-  .hero { height: 220px; }
+  .hero { height: 120px; }
   .section { padding: 40px 5%; }
   .card { max-width: 100%; }
   .details { padding: 28px 20px; }
