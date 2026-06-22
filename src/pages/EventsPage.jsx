@@ -1,4 +1,17 @@
+import { Link } from 'react-router-dom'
 import styles from './EventsPage.module.css'
+
+const pastEvents = [
+  {
+    day: '14', month: 'DEC', year: '2024',
+    tag: 'Founding Meeting',
+    title: 'NAPOSA Inaugural Founders Meeting',
+    description: 'Former students gathered at Nabingoola Public Secondary School to lay the groundwork for the association — electing an interim committee and drafting the NAPOSA constitution.',
+    date: 'Saturday, 14th December 2024',
+    location: 'Nabingoola Public Secondary School, Mubende District',
+    time: '10:00 AM – 4:00 PM',
+  },
+]
 
 export default function EventsPage() {
   return (
@@ -49,22 +62,54 @@ export default function EventsPage() {
 
             <div className={styles.meta}>
               <div className={styles.metaItem}>
-                <i className="fa fa-calendar" />
+                <i className="fa-solid fa-calendar-days" />
                 <span>Friday, 3rd July 2026</span>
               </div>
               <div className={styles.metaItem}>
-                <i className="fa fa-location-dot" />
+                <i className="fa-solid fa-location-dot" />
                 <span>Nabingoola Public Secondary School, Mubende District</span>
               </div>
               <div className={styles.metaItem}>
-                <i className="fa fa-clock" />
+                <i className="fa-solid fa-clock" />
                 <span>10:00 AM onwards</span>
               </div>
             </div>
 
-            <a href="/join" className={styles.btn}>REGISTER YOUR ATTENDANCE</a>
+            <Link to="/contact" className={styles.btn}>REGISTER YOUR ATTENDANCE</Link>
           </div>
         </div>
+      </section>
+
+      <section className={styles.pastSection}>
+        <div className={styles.label}>PAST EVENTS</div>
+        {pastEvents.map((e, i) => (
+          <div className={`${styles.card} ${styles.pastCard}`} key={i}>
+            <div className={`${styles.dateBadge} ${styles.pastBadge}`}>
+              <span className={styles.day}>{e.day}</span>
+              <span className={styles.month}>{e.month}</span>
+              <span className={styles.year}>{e.year}</span>
+            </div>
+            <div className={styles.details}>
+              <span className={styles.tag}>{e.tag}</span>
+              <h2>{e.title}</h2>
+              <p>{e.description}</p>
+              <div className={styles.meta}>
+                <div className={styles.metaItem}>
+                  <i className="fa-solid fa-calendar-days" />
+                  <span>{e.date}</span>
+                </div>
+                <div className={styles.metaItem}>
+                  <i className="fa-solid fa-location-dot" />
+                  <span>{e.location}</span>
+                </div>
+                <div className={styles.metaItem}>
+                  <i className="fa-solid fa-clock" />
+                  <span>{e.time}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
       </section>
     </main>
   )

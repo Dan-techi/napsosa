@@ -150,6 +150,22 @@
 }
 .btn:hover { background: var(--gold); }
 
+.pastSection {
+  padding: 60px 5%;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pastCard {
+  opacity: 0.75;
+}
+
+.pastBadge {
+  background: #4a5568;
+}
+
 @media (max-width: 768px) {
   .hero { height: 220px; }
   .section { padding: 40px 5%; }
