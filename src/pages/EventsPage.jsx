@@ -36,6 +36,11 @@ export default function EventsPage() {
               and invited guests to celebrate a new chapter in the life of our alma mater.
             </p>
 
+            <button className={styles.readMore} onClick={() => setExpanded(!expanded)}>
+              {expanded ? 'Read Less' : 'Read More'}
+              <i className={`fa-solid fa-chevron-${expanded ? 'up' : 'down'}`} />
+            </button>
+
             {expanded && (
               <>
                 <p>
@@ -53,30 +58,23 @@ export default function EventsPage() {
                   years. This is a moment in history for every old student of
                   Nabingoola — do not miss it.
                 </p>
+                <div className={styles.meta}>
+                  <div className={styles.metaItem}>
+                    <i className="fa-solid fa-calendar-days" />
+                    <span>Friday, 3rd July 2026</span>
+                  </div>
+                  <div className={styles.metaItem}>
+                    <i className="fa-solid fa-location-dot" />
+                    <span>Nabingoola Public Secondary School, Mubende District</span>
+                  </div>
+                  <div className={styles.metaItem}>
+                    <i className="fa-solid fa-clock" />
+                    <span>10:00 AM onwards</span>
+                  </div>
+                </div>
+
               </>
             )}
-
-            <button className={styles.readMore} onClick={() => setExpanded(!expanded)}>
-              {expanded ? 'Read Less' : 'Read More'}
-              <i className={`fa-solid fa-chevron-${expanded ? 'up' : 'down'}`} />
-            </button>
-
-            <div className={styles.meta}>
-              <div className={styles.metaItem}>
-                <i className="fa-solid fa-calendar-days" />
-                <span>Friday, 3rd July 2026</span>
-              </div>
-              <div className={styles.metaItem}>
-                <i className="fa-solid fa-location-dot" />
-                <span>Nabingoola Public Secondary School, Mubende District</span>
-              </div>
-              <div className={styles.metaItem}>
-                <i className="fa-solid fa-clock" />
-                <span>10:00 AM onwards</span>
-              </div>
-            </div>
-
-            <Link to="/contact" className={styles.btn}>REGISTER YOUR ATTENDANCE</Link>
           </div>
         </div>
       </section>
