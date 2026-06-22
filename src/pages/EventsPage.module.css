@@ -115,6 +115,21 @@
   margin-bottom: 14px;
 }
 
+.readMore {
+  background: none;
+  border: none;
+  color: var(--gold);
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  margin-bottom: 8px;
+}
+.readMore:hover { color: var(--navy); }
+
 .meta {
   display: flex;
   flex-direction: column;
