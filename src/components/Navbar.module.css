@@ -12,6 +12,7 @@
 }
 
 .logo { display: flex; align-items: center; gap: 12px; }
+.logoImg { width: 48px; height: 48px; object-fit: contain; border-radius: 50%; }
 
 .badge {
   width: 52px; height: 52px;

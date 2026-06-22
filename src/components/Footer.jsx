@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import NaposaLogo from './NaposaLogo'
 import styles from './Footer.module.css'
 
 const socials = [
@@ -25,7 +24,7 @@ export default function Footer() {
 
         <div className={styles.brand}>
           <div className={styles.logo}>
-            <NaposaLogo size={48} />
+            <img src={`${import.meta.env.BASE_URL}NAPOSA Logo.jpg`} alt="NAPOSA Logo" className={styles.logoImg} />
             <div>
               <strong>NAPOSA</strong>
               <span>Nabingoola Public<br />Old Students Association</span>
