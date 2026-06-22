@@ -24,7 +24,7 @@ export default function Footer() {
 
         <div className={styles.brand}>
           <div className={styles.logo}>
-            <img src={`${import.meta.env.BASE_URL}NAPOSA Logo.jpg`} alt="NAPOSA Logo" className={styles.logoImg} />
+            <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt="NAPOSA Logo" className={styles.logoImg} />
             <div>
               <strong>NAPOSA</strong>
               <span>Nabingoola Public<br />Old Students Association</span>
