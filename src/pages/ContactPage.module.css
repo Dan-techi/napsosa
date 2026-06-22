@@ -122,4 +122,6 @@
 @media (max-width: 768px) {
   .infoCards { grid-template-columns: 1fr; }
   .row { grid-template-columns: 1fr; }
+  .hero { padding: 30px 5% 20px; }
+  .hero h1 { font-size: 1.8rem; }
 }
