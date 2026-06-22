@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import styles from './EventsPage.module.css'
 
 export default function EventsPage() {
@@ -36,10 +35,11 @@ export default function EventsPage() {
               and invited guests to celebrate a new chapter in the life of our alma mater.
             </p>
 
-            <button className={styles.readMore} onClick={() => setExpanded(!expanded)}>
-              {expanded ? 'Read Less' : 'Read More'}
-              <i className={`fa-solid fa-chevron-${expanded ? 'up' : 'down'}`} />
-            </button>
+            {!expanded && (
+              <button className={styles.readMore} onClick={() => setExpanded(true)}>
+                Read More <i className="fa-solid fa-chevron-down" />
+              </button>
+            )}
 
             {expanded && (
               <>
@@ -72,7 +72,9 @@ export default function EventsPage() {
                     <span>10:00 AM onwards</span>
                   </div>
                 </div>
-
+                <button className={styles.readMore} onClick={() => setExpanded(false)}>
+                  Read Less <i className="fa-solid fa-chevron-up" />
+                </button>
               </>
             )}
           </div>
