@@ -7,10 +7,10 @@
 .hero {
   background: var(--navy);
   color: var(--white);
-  padding: 80px 5% 60px;
+  padding: 40px 5% 30px;
 }
-.hero h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 10px; }
-.hero p { font-size: 1rem; color: var(--gold); letter-spacing: 1px; text-transform: uppercase; }
+.hero h1 { font-size: 1.8rem; font-weight: 800; margin-bottom: 6px; }
+.hero p { font-size: 0.88rem; color: var(--gold); letter-spacing: 1px; text-transform: uppercase; }
 
 .empty {
   flex: 1;
