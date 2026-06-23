@@ -67,21 +67,26 @@ export default function AlumniPage() {
         )}
 
         {!loading && !error && filtered.length > 0 && (
-          <div className={styles.tableWrap}>
-            <table className={styles.table}>
-              <thead>
-                <tr>
-                  {Object.keys(alumni[0]).map(h => <th key={h}>{h}</th>)}
-                </tr>
-              </thead>
-              <tbody>
-                {filtered.map((a, i) => (
-                  <tr key={i}>
-                    {Object.values(a).map((v, j) => <td key={j}>{v}</td>)}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div className={styles.grid}>
+            {filtered.map((a, i) => (
+              <div key={i} className={styles.card}>
+                <div className={styles.avatar}>{a['Full Name']?.charAt(0).toUpperCase()}</div>
+                <div className={styles.info}>
+                  <h3>{a['Full Name']}</h3>
+                  <div className={styles.meta}>
+                    {a['Year of Completion'] && (
+                      <span><i className="fa-solid fa-graduation-cap" /> {a['Year of Completion']}</span>
+                    )}
+                    {a['Current Location'] && (
+                      <span><i className="fa-solid fa-location-dot" /> {a['Current Location']}</span>
+                    )}
+                    {a['Occupation '] && (
+                      <span><i className="fa-solid fa-briefcase" /> {a['Occupation ']}</span>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         )}
       </section>
