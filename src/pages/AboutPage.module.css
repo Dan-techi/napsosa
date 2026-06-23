@@ -1,4 +1,4 @@
-.page { background: var(--gray-bg); }
+.page { background: var(--gray-bg); min-height: 80vh; }
 
 .hero {
   background: var(--navy);

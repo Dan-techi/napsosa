@@ -9,6 +9,7 @@ import EventsPage from './pages/EventsPage'
 import GovernancePage from './pages/GovernancePage'
 import ProjectsPage from './pages/ProjectsPage'
 import ContactPage from './pages/ContactPage'
+import AlumniPage from './pages/AlumniPage'
 import ScrollToTop from './components/ScrollToTop'
 import './index.css'
 
@@ -26,6 +27,7 @@ export default function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/events" element={<EventsPage />} />
             <Route path="/governance" element={<GovernancePage />} />
+            <Route path="/alumni" element={<AlumniPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
