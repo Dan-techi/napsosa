@@ -55,7 +55,7 @@ export default function AlumniPage() {
             onChange={e => setSearch(e.target.value)}
           />
           <a href="https://forms.gle/7DyeoTazPqgtEZwcA" target="_blank" rel="noreferrer" className={styles.btn}>
-            + Register as Alumni
+            + Register as OB / OG
           </a>
         </div>
 

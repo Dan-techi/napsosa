@@ -38,6 +38,11 @@ export default function Navbar() {
             </NavLink>
           </li>
         ))}
+        <li>
+          <a href="https://forms.gle/7DyeoTazPqgtEZwcA" target="_blank" rel="noreferrer" className={styles.joinMobile} onClick={() => setOpen(false)}>
+            JOIN NAPOSA
+          </a>
+        </li>
       </ul>
 
       <a href="https://forms.gle/7DyeoTazPqgtEZwcA" target="_blank" rel="noreferrer" className={styles.btnJoin}>JOIN NAPOSA</a>
