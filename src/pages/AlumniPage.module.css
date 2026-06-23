@@ -12,17 +12,94 @@
 .heroContent h1 { font-size: 1.8rem; font-weight: 800; margin-bottom: 6px; }
 .heroContent p { font-size: 0.88rem; color: var(--gold); letter-spacing: 1px; text-transform: uppercase; }
 
-.empty {
+.section {
+  padding: 48px 5%;
+  background: var(--gray-bg);
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 80px 5%;
-  text-align: center;
-  gap: 16px;
 }
 
-.empty i { font-size: 3.5rem; color: var(--gold); opacity: 0.6; }
-.empty h2 { font-size: 1.4rem; font-weight: 800; color: var(--navy); }
-.empty p { font-size: 0.95rem; color: var(--muted); max-width: 480px; }
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.count { font-size: 0.88rem; color: var(--muted); flex: 1; }
+.count strong { color: var(--navy); }
+
+.search {
+  padding: 10px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.88rem;
+  outline: none;
+  width: 260px;
+  transition: border-color .2s;
+  font-family: inherit;
+}
+.search:focus { border-color: var(--gold); }
+
+.btn {
+  background: var(--gold);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: background .2s;
+}
+.btn:hover { background: var(--navy); }
+
+.msg {
+  text-align: center;
+  padding: 60px 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0,0,0,.07);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--white);
+  font-size: 0.88rem;
+}
+
+.table thead {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.table th {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eef0f5;
+  color: #444;
+}
+
+.table tbody tr:last-child td { border-bottom: none; }
+.table tbody tr:hover { background: #f7f8fc; }
+
+@media (max-width: 768px) {
+  .topBar { flex-direction: column; align-items: flex-start; }
+  .search { width: 100%; }
+  .btn { width: 100%; text-align: center; }
+  .count { font-size: 0.82rem; }
+}

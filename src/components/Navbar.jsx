@@ -40,7 +40,7 @@ export default function Navbar() {
         ))}
       </ul>
 
-      <Link to="/join" className={styles.btnJoin}>JOIN NAPOSA</Link>
+      <a href="https://forms.gle/7DyeoTazPqgtEZwcA" target="_blank" rel="noreferrer" className={styles.btnJoin}>JOIN NAPOSA</a>
 
       <button className={styles.hamburger} onClick={() => setOpen(o => !o)} aria-label="Menu">
         <i className={`fa ${open ? 'fa-times' : 'fa-bars'}`} />
