@@ -60,6 +60,8 @@
 }
 .btnJoin:hover { background: var(--gold-light); }
 
+.joinMobileItem { display: none; }
+
 .hamburger {
   display: none;
   background: none;
@@ -86,6 +88,18 @@
   }
   .links.open { display: flex; }
   .links a { padding: 10px 0; width: 100%; border-bottom: 1px solid #eee; }
+  .joinMobileItem { display: block; padding: 12px 0 4px; }
+  .joinMobile {
+    display: block;
+    background: var(--gold);
+    color: var(--white);
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+  }
   .links.open::after {
     content: '';
     display: block;
