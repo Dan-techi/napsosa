@@ -8,9 +8,9 @@ const links = [
   { label: 'School', to: '/school', dropdown: true },
   { label: 'Alumni', to: '/alumni', dropdown: true },
   { label: 'Projects', to: '/projects', dropdown: true },
-  { label: 'Events', to: '/events' },
-  { label: 'Governance', to: '/governance' },
-  { label: 'Contact Us', to: '/contact' },
+  { label: 'Events', to: '/events', dropdown: true },
+  { label: 'Governance', to: '/governance', dropdown: true },
+  { label: 'Contact Us', to: '/contact', dropdown: true },
 ]
 
 export default function Navbar() {

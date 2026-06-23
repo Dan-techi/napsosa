@@ -1,10 +1,5 @@
+import { Link } from 'react-router-dom'
 import styles from './Hero.module.css'
-
-const btns = [
-  { label: 'JOIN NAPOSA', icon: 'fa-envelope', cls: 'primary' },
-  { label: 'DONATE NOW', icon: 'fa-heart', cls: 'gold' },
-  { label: 'ALUMNI DIRECTORY', icon: 'fa-users', cls: 'outline' },
-]
 
 export default function Hero() {
   return (
@@ -21,11 +16,15 @@ export default function Hero() {
           a brighter future for generations to come.
         </p>
         <div className={styles.btns}>
-          {btns.map(b => (
-            <a key={b.label} href="#" className={`${styles.btn} ${styles[b.cls]}`}>
-              <i className={`fa ${b.icon}`} /> {b.label}
-            </a>
-          ))}
+          <a href="https://forms.gle/7DyeoTazPqgtEZwcA" target="_blank" rel="noreferrer" className={`${styles.btn} ${styles.primary}`}>
+            <i className="fa fa-envelope" /> JOIN NAPOSA
+          </a>
+          <a href="#" className={`${styles.btn} ${styles.gold}`}>
+            <i className="fa fa-heart" /> DONATE NOW
+          </a>
+          <Link to="/alumni" className={`${styles.btn} ${styles.outline}`}>
+            <i className="fa fa-users" /> ALUMNI DIRECTORY
+          </Link>
         </div>
       </div>
     </section>
